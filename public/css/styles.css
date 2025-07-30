@@ -1,0 +1,31 @@
+/* Tema verde - personalização do Bootstrap */
+:root {
+    --bs-success-rgb: 25, 135, 84;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-width: 2px;
+}
+
+.btn-success {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+    border-color: #146c43;
+}
+
+.list-group-item:hover {
+    background-color: rgba(25, 135, 84, 0.1);
+}
+
+/* Efeitos de transição */
+.card, .list-group-item {
+    transition: all 0.3s ease;
+}
